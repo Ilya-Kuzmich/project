@@ -1,0 +1,50 @@
+{
+  "uid" : "8208f64478271a72",
+  "name" : "API:",
+  "fullName" : "API.API:",
+  "historyId" : "ba95bab84efccd894889c736822f6995",
+  "time" : {
+    "start" : 1640703828820,
+    "stop" : 1640703859997,
+    "duration" : 31177
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API"
+  }, {
+    "name" : "testClass",
+    "value" : "API"
+  }, {
+    "name" : "testMethod",
+    "value" : "API:"
+  }, {
+    "name" : "package",
+    "value" : "API"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8208f64478271a72.json",
+  "parameterValues" : [ ]
+}

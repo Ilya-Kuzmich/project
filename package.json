@@ -1,0 +1,35 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --config ./src/config/.mocharc.js",
+    "report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "lint": "eslint src/** --fix",
+    "allure": "node allure-server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ilya-Kuzmich/project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ilya-Kuzmich/project/issues"
+  },
+  "homepage": "https://github.com/Ilya-Kuzmich/project#readme",
+  "dependencies": {
+    "allure-commandline": "^2.17.2",
+    "assert": "^2.0.0",
+    "axios": "^0.24.0",
+    "chai": "^4.3.4",
+    "chai-json-schema": "^1.5.1",
+    "mocha": "^9.1.3",
+    "mocha-allure-reporter": "^1.4.0",
+    "moment": "^2.29.1",
+    "puppeteer": "^13.0.0",
+    "winston": "^3.3.3"
+  }
+}
