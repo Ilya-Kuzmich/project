@@ -3,6 +3,9 @@ npm-debug.log*
 
 # Dependency directories
 node_modules/
+# Dependency directories
 logs/
+# Dependency directories
 allure-results/
+# Dependency directories
 allure-report/
